@@ -30,7 +30,7 @@
     ui_label_zh_CHT =  "色度值";
     ui_min = 0.0;
     ui_max = 1.0;
-> = 0.2;
+> = 0.0;
 
 uniform float g_sldIntensity <
     ui_type = "drag";
@@ -64,7 +64,7 @@ uniform float g_sldIntensity <
     ui_label_zh_CHT =  "色度強度";
     ui_min = 0.0;
     ui_max = 1.0;
-> = 0.3;
+> = 0.2;
 
 uniform float g_sldTemperature <
     ui_type = "drag";
@@ -132,7 +132,7 @@ uniform float g_sldVibrance <
     ui_label_zh_CHT =  "彩度";
     ui_min = -1.0;
     ui_max = 1.0;
-> = 0.0;
+> = 1.0;
 
 #include "NvCommon.fxh"
 

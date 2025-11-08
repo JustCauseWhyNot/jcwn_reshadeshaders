@@ -64,7 +64,7 @@ uniform float g_sldHighlightsIntensity <
     ui_label_zh_CHT =  "亮點";
     ui_min = -1.0;
     ui_max = 1.0;
-> = 0.2;
+> = 1.0;
 
 uniform float g_sldShadowsIntensity <
     ui_type = "drag";
@@ -132,7 +132,7 @@ uniform float g_sldContrast <
     ui_label_zh_CHT =  "對比";
     ui_min = -1.0;
     ui_max = 1.0;
-> = 0.3;
+> = 0.04;
 
 uniform float g_sldGamma <
     ui_type = "drag";
@@ -166,7 +166,7 @@ uniform float g_sldGamma <
     ui_label_zh_CHT =  "色差補正";
     ui_min = -1.0;
     ui_max = 1.0;
-> = 0.0;
+> = 0.14;
 
 #include "NvCommon.fxh"
 

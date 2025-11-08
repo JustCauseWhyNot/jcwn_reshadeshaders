@@ -29,25 +29,25 @@ uniform float g_sldSharpen < __UNIFORM_SLIDER_FLOAT1
 	ui_min = 0.000; ui_max=1.000;
 	ui_label = "Sharpen";
 	ui_step = 0.001;
-> = 0.5;
+> = 0.0;
 
 uniform float g_sldClarity < __UNIFORM_SLIDER_FLOAT1
 	ui_min = -1.000; ui_max=1.000;
 	ui_label = "Clarity";
 	ui_step = 0.001;
-> = 0.7;
+> = 1.0;
 
 uniform float g_sldHDR < __UNIFORM_SLIDER_FLOAT1
 	ui_min = -1.000; ui_max=1.000;
 	ui_label = "HDR Toning";
 	ui_step = 0.001;
-> = 0.6;
+> = 1.0;
 
 uniform float g_sldBloom < __UNIFORM_SLIDER_FLOAT1
 	ui_min = 0.000; ui_max=1.000;
 	ui_label = "Bloom";
 	ui_step = 0.001;
-> = 0.15;
+> = 0.0;
 
 #include "NvCommon.fxh"
 
